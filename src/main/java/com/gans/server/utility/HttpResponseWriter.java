@@ -141,7 +141,7 @@ public class HttpResponseWriter {
         writer.print(statusLine + CRLF);
 
         addHeaders(writer, headers);
-
+        if(StringUtils.isNotEmpty(content))
         writer.print("Content-Length: " + content.length() + CRLF);
         writer.print(CRLF);
         if (StringUtils.isNotEmpty(content)) {
