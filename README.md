@@ -123,3 +123,11 @@ Opensource server - https://github.com/NanoHttpd/nanohttpd (went through the sou
 Though I have used a few methods it was not completely as is. I have made a lot of changes to the original code.
 For example The author used String based approach to get all bytes and write. However, It wont work for binary files like images.
 So improvised to read with byte array from the input stream. Also changed the logs and added validation checks wherever required.
+
+
+
+## Improvements:
+
+1) Would like to improve the logging. Build a framework to monitor the health of the Server
+2) Implement options,trace, connect methods.
+3) Improve the junit test coverage. 
