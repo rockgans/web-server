@@ -23,6 +23,9 @@ OK(200, "OK"),CREATED(201, "Created"),NO_CONTENT(204,"deleted"),BAD_REQUEST(400,
 FORBIDDEN(403, "Forbidden"),NOT_FOUND(404, "Not found"),METHOD_NOT_SUPPORTED(405, "Not found"),
 INTERNAL_SERVER_ERROR(500, "Internal server error"),HTTP_VERSION_NOT_SUPPORTED(505, "HTTP Version not supported")
 
+## Locking:
+
+File locking feature is implemented which will ensure the other thread will wait until the current thread is done with using the file and release it. The same is tested with Junits too. 
 
 ## Steps to Build
 
