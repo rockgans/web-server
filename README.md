@@ -32,7 +32,11 @@ Running this command will build a release version of the jar along with all the 
 
 ## Steps to Run
 
-place the jar (the one witht he dependencies built in) and the server-config.properties in the same folder
+#### place the jar (the one with the dependencies built in) and the server-config.properties in the same folder
+
+or
+
+#### Unzip the web-server.zip file to get all the required files.
 
 cd in to the folder
 
@@ -130,4 +134,4 @@ So improvised to read with byte array from the input stream. Also changed the lo
 
 1) Would like to improve the logging. Build a framework to monitor the health of the Server
 2) Implement options,trace, connect methods.
-3) Improve the junit test coverage. 
+3) Improve the junit test coverage.
