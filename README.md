@@ -25,7 +25,10 @@ INTERNAL_SERVER_ERROR(500, "Internal server error"),HTTP_VERSION_NOT_SUPPORTED(5
 
 ## Locking:
 
-File locking feature is implemented which will ensure the other thread will wait until the current thread is done with using the file and release it. The same is tested with Junits too. 
+File locking feature is implemented which will ensure the other thread will wait until the current thread is done with using the file and release it. The same is tested with Junits too.
+
+delete of a folder or create of a folder is not allowed. So the url should always have a file name at the end to process the data.
+GET api can have the folder, which will display all the contents.
 
 ## Steps to Build
 
